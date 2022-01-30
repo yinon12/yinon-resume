@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(90deg, rgba(8,76,130,1) 0%, rgba(0,121,145,1) 100%);
+}
+
+h1 {
+    font-family: 'Neonderthaw', cursive;
+    font-size: 6em;
+}
+
+.blurbg {
+    padding: 2em 5em;
+    border-radius: 20px;
+    background:  rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+.myimg {
+    margin-top: -155px;
+    border-radius: 50%;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+  
+thead td {
+    font-weight: bold;
+}
+
+.email {
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    width: 100px;
+    margin: 12px;
+}
+
+.icons:hover {
+    filter: drop-shadow(0 0 10px white);
+}
+
+.blurbottom {
+    padding: 2em 5em;
+    border-radius: 20px;
+    background:  rgba(255, 255, 255, 0.2);
+    filter: drop-shadow(0 0 10px #000);
+}
+
+/* ============================ */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
